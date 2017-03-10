@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_registration_actvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/blankbackground"
+    tools:context="ranglerz.com.guardautozone.UserRegistrationActvity">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:id="@+id/guard_logo"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/guard_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:layout_below="@+id/guard_logo"
+        android:hint="Name"
+        android:maxLength="40"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_email"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_dob"
+        android:inputType="date"
+        android:hint="Date of Birth"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_car_number"
+        android:inputType="text"
+        android:hint="Car Number"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_dob"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_car_registration_number"
+        android:hint="Car Registraion Number"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_car_number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_car_milleage"
+
+        android:inputType="number"
+        android:hint="Car Milleage"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_car_registration_number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_car_model"
+
+        android:hint="Car Model"
+        android:textColor="@color/which"
+        android:textColorHint="@color/which"
+        android:backgroundTint="@color/which"
+        android:textStyle="bold"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:layout_below="@+id/user_car_milleage"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_sb_button"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/button_submit"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

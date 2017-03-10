@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blankbackground">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:id="@+id/guard_logo"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/guard_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:id="@+id/home_relative_layout"
+        android:layout_below="@+id/guard_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/home_ani"
+            android:layout_width="44dp"
+            android:layout_height="50dp"
+            android:src="@drawable/guardhome" />
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/home_linear_layout"
+            android:background="@color/colorYellow">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/tv_home"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:textAlignment="center"
+                android:text="Home"
+                android:textColor="@color/which"/>
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.01"
+                android:id="@+id/home_iamge"
+                android:src="@drawable/guardhome"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/about_relative_layout"
+        android:layout_below="@+id/home_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/about_ani"
+            android:layout_width="44dp"
+            android:layout_height="50dp"
+            android:src="@drawable/guard_about" />
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/about_linear_layout"
+            android:background="@color/silver">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_about"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:textAlignment="center"
+                android:text="About"
+                android:textColor="@color/which"/>
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.01"
+                android:id="@+id/about_iamge"
+                android:src="@drawable/guard_about"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:id="@+id/check_history_relative_layout"
+
+        android:layout_below="@+id/about_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/check_history_ani"
+            android:layout_width="44dp"
+            android:layout_height="50dp"
+            android:src="@drawable/check_history_image" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/check_history_linear_layout"
+            android:background="@color/black">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_chceck_history_guard_auto_zone"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:textAlignment="center"
+                android:text="Check your History"
+                android:textColor="@color/which"/>
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.01"
+                android:id="@+id/check_history_image"
+                android:src="@drawable/check_history_image"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/neart_guard_relative_layout"
+        android:layout_below="@+id/check_history_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/neartest_ani"
+            android:layout_width="44dp"
+            android:layout_height="50dp"
+            android:src="@drawable/map_marker_image" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/nearest_linear_layout"
+            android:background="@color/red">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_nearest_guard_auto_zone"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:textAlignment="center"
+                android:text="Nearest Guard Auto Zone"
+                android:textColor="@color/which"/>
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.01"
+                android:id="@+id/nearest_iamge"
+                android:src="@drawable/map_marker_image"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/neart_guard_relative_layout"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/carton_tag"
+            android:id="@+id/carton_tag"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="65dp"
+            android:id="@+id/testAnim"
+            android:adjustViewBounds="true"
+            android:src="@drawable/welcome_tag1"
+           android:layout_toRightOf="@id/carton_tag"
+           android:layout_alignTop="@+id/carton_tag"
+             />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

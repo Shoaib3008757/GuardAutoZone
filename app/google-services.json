@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "1073305104106",
+    "firebase_url": "https://guard-autozone-1480922171344.firebaseio.com",
+    "project_id": "guard-autozone-1480922171344",
+    "storage_bucket": "guard-autozone-1480922171344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073305104106:android:833ff811622292e1",
+        "android_client_info": {
+          "package_name": "ranglerz.com.guardautozone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073305104106-kql0ha5djg7j5q9ietm6hv53n3bocko5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW1UMJ_eKhTMVu2Hui__T3Z0-y8DQP9rs"
+        },
+        {
+          "current_key": "AIzaSyCJcfKzP4rHyrfSgxIE1ddPAfddWpvCy0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

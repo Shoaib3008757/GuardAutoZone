@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ranglerz.com.guardautozone.ActivityRegister">
+
+
+    <!--    <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/car_registrationNumber"
+            android:layout_alignRight="@+id/register_name"
+            android:layout_alignEnd="@+id/register_name"
+            android:layout_marginTop="50dp" />-->
+
+    <!--
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            facebook:com_facebook_confirm_logout="true"
+            facebook:com_facebook_tooltip_mode="never_display"
+            android:layout_above="@+id/b_register"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="78dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_name"
+        android:hint="Enter Full Name"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/register_email"
+        android:layout_alignStart="@+id/register_email" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/register_password1"
+        android:layout_below="@+id/register_email"
+        android:layout_alignLeft="@+id/mobile"
+        android:layout_alignStart="@+id/mobile"
+        android:hint="Create Password"
+        android:textColorHint="@color/yellow"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/register_password2"
+        android:layout_below="@+id/register_password1"
+        android:layout_alignLeft="@+id/register_password1"
+        android:layout_alignStart="@+id/register_password1"
+        android:hint="Enter Password Again"
+        android:textColorHint="@color/orage"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:maxLength="13"
+        android:id="@+id/mobile"
+        android:layout_below="@+id/register_password2"
+        android:layout_centerHorizontal="true"
+        android:hint="Mobile Number"
+        android:textColorHint="@color/green"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/register_email"
+        android:hint="Enter Valid Email"
+        android:textColorHint="@color/brown"
+        android:layout_below="@+id/register_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/b_register"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/car_registrationNumber"
+        android:layout_below="@+id/mobile"
+        android:layout_alignLeft="@+id/mobile"
+        android:layout_alignStart="@+id/mobile"
+        android:hint="Car Registration Number"
+        android:maxLength="7"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register With Facebook"
+        android:id="@+id/b_register_with_fb"
+        android:layout_above="@+id/b_register"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

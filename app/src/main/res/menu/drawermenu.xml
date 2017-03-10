@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_home"
+        android:icon="@drawable/home"/>
+
+    <item android:title="Nearest Location"
+        android:id="@+id/nav_item_nearest_location"
+        android:icon="@drawable/car_marker"/>
+
+    <item android:title="About Company"
+        android:id="@+id/nav_item_about_company"
+        android:icon="@drawable/car_marker"/>
+
+    <item android:title="Maintenance"
+        android:id="@+id/nav_item_maintenance"
+        android:icon="@drawable/car_marker"/>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Guide Books"
+                android:icon="@drawable/car_marker"
+                android:id="@+id/guide_books"/>
+            <item
+                android:title="Refer to Friends"
+                android:icon="@drawable/car_marker"
+                android:id="@+id/refer_to_friends"/>
+            <item
+                android:title="News and Events"
+                android:icon="@drawable/car_marker"
+                android:id="@+id/new_and_events"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Settings"
+            android:icon="@drawable/settings"/>
+        <item android:title="Customer Reviews / Feedback"
+            android:icon="@drawable/car_marker"
+            android:id="@+id/customer_reviews_and_feedback"/>
+    </group>
+</menu>

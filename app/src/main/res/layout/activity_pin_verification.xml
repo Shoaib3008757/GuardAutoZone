@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pin_verification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/blankbackground"
+    tools:context="ranglerz.com.guardautozone.PinVerificationActivity">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:id="@+id/guard_logo"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/guard_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_sumbit"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_submit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/pin_verification_linear_layout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_pin"
+            android:inputType="number"
+            android:maxLength="5"
+            android:hint="Enter Pin Code"
+            android:textColorHint="@color/which"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/which"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_phone"
+            android:inputType="phone"
+            android:maxLength="14"
+            android:hint="Enter Mobile Number"
+            android:textColorHint="@color/which"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/which"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here To Register"
+            android:id="@+id/tv_clickHere"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</RelativeLayout>

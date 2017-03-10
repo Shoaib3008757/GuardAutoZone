@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Guard AutoZone</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_guard_splash_screen">GuardSplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_sign_in_sign_up">SignInSignUp</string>
+
+    <string name="facebook_app_id">711894538974799</string>
+
+    <string name="fb_login_protocol_scheme">fb711894538974799</string>
+
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Android</item>
+        <item>Xamarin</item>
+        <item>WordPress</item>
+        <item>Java</item>
+        <item>Tools</item>
+        <item>Servlets</item>
+    </string-array>
+
+
+    <string name="home">Home</string>
+    <string name="about">About Compnay</string>
+    <string name="map">Nearest WorkShop</string>
+    <string name="maintenance_history">Maintenance History</string>
+
+    
+
+    <string name="history">
+        Trusted since 1948 Guard Group is the manufacturer and distributor of Guard Automotive filters, Engine oil, Brake Oil, Disk pads, Brake Pads, Brake Linings, Greases, Car Care Products, Rice and Hybrid Seeds. The company moved ahead to introduce the concept of branded retail service outlet across the country with <b> “One Stop Solution for Automotive Services”</b>. For that purpose the Project Director, Mr. Sheryar Ali Malik took the initiative along with the patronage of Board of Directors, laid down the foundation and concept of Guard Auto Zones.
+    </string>
+
+    <string name="concept_part1">Guard Auto Zone provides convenient services to automobile users such as Oil Change, Oil and Air Filter Change, Battery Charging, Wheel Balancing and Digital Air Pressure facility. We have Guard Auto Zone operational so far across Pakistan in all major cities and National Highways of Pakistan and are still building up new projects.
+    </string>
+
+    <string name="concept_Part2">
+        A new concept of <b>Customer Care Center</b> was also introduced which is directly associated with the Guard Auto Zone outlets by providing quality products and services to its users. It keeps the complete history of the vehicle and gives a reminder to the customer about present and due mileage along with it they let them know where is the nearest Guard Auto Zone located in the area for availing such services.
+    </string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">testActivity</string>
+
+    <!-- List of latitudes and longitudes for guard auto zone address on google map -->
+
+    <string name="dhaLahoreLat">31.500855</string>
+    <string name="dhaLahoreLng">74.420502</string>
+    <string name="thokarLahoreLat">31.466606</string>
+    <string name="thokarLahoreLng">74.235498</string>
+    <string name="modelTwonLhrLat">31.471311</string>
+    <string name="modelTwonLhrLng">74.319133</string>
+    <string name="raviRaodLhrLat">31.596677</string>
+    <string name="raviRoadLhrLng">74.297780</string>
+    <string name="caveloryGroudLhrLat">31.501631</string>
+    <string name="cavaloryGroudLhrLng">74.374505</string>
+    <string name="gujrawalaLat">32.250412</string>
+    <string name="gujrawalaLng">74.111567</string>
+    <string name="sialkotLat">32.509689</string>
+    <string name="sialkotLng">74.559416</string>
+    <string name="jhelumLat">32.925219</string>
+    <string name="jhelumLng">74.716175</string>
+    <string name="faislabadLat">31.507965</string>
+    <string name="faislabadLng">73.069979</string>
+    <string name="bheraNorthLat">32.453655</string>
+    <string name="bheraNorthLng">72.885129</string>
+    <string name="bheraSouthLat">32.454647</string>
+    <string name="bheraSouthLng">72.887927</string>
+    <string name="islamabadLat">33.640681</string>
+    <string name="islamabadLng">73.026125</string>
+    <string name="rawalpindiLat">33.612354</string>
+    <string name="rawalpindiLng">73.024193</string>
+    <string name="whaCantLat">33.767688</string>
+    <string name="whaCantLng">72.756487</string>
+    <string name="safariParkLat">24.922120</string>
+    <string name="safariParkLng">67.105894</string>
+    <string name="stargateLat">24.887969</string>
+    <string name="stargateLng">67.151895</string>
+    <string name="manghopirLat">24.920069</string>
+    <string name="manghopirLng">67.015472</string>
+    <string name="steelTownLat">24.862040</string>
+    <string name="steelTownLng">67.336952</string>
+    <string name="kalapulLat">24.852262</string>
+    <string name="kalapulLng">67.051149</string>
+    <string name="malirCantLat">24.928387</string>
+    <string name="malirCantLng">67.202987</string>
+
+
+</resources>
